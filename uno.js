@@ -28,10 +28,10 @@ function mostrar() {
   let acumBactericida = 0;
   let acumDetergente = 0;
 
-  // PUNTO C
+  // C
   let acumDetergenteMenor = 0;
 
-  // PUNTO D (TIPO MAS CARO DE PRODUCTOS)
+  // D
   let precioProductoCaro = 0;
   let categoriaProductoCaro;
   let fabricanteProductoCaro;

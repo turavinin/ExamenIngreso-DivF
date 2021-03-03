@@ -7,6 +7,7 @@ Sexo ( femenino , masculino , no binario)
 Nota promedio (entre 0 y 10)
 edad (validar)
 se debe informar de existir, o informar que no existe , en el caso que corresponda.
+
 a) El nombre del mejor promedio de los que no tarbajan o estan buscando
 b) El nombre del mas viejo de los alumnos que solo sea estudiantes
 c) El promedio de nota por situacion laboral
@@ -195,7 +196,7 @@ function mostrar() {
       `La nota promedio de los que trabajan es ${promedioTrabajando}`
     );
   } else {
-    console.log(`No hay alumnos mque trabajen`);
+    console.log(`No hay alumnos que trabajen`);
   }
 
   if (contEstudia != 0) {

@@ -89,7 +89,7 @@ function mostrar() {
     // B
     if (
       obraSocial == 'pami' &&
-      sexo == 'femenino' &&
+      sexo == 'f' &&
       (flagMujerPami || edad < edadMujerPamiJoven)
     ) {
       edadMujerPamiJoven = edad;
@@ -145,7 +145,7 @@ function mostrar() {
   let porcentajeDePami;
   let precioFinalConDescuento;
 
-  if (contPasajeros != 0 && contPasajeroPami != 0) {
+  if (contPasajeroPami != 0) {
     porcentajeDePami = (contPasajeroPami * 100) / contPasajeros;
 
     if (porcentajeDePami > 50) {
