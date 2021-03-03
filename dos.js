@@ -150,7 +150,7 @@ function mostrar() {
 
     // D
     if (
-      situacionLaboral != 'buscando' &&
+      situacionLaboral == 'buscando' &&
       (flagMenorMaterias || cantidadMaterias > menorMateriasNoTrabaja)
     ) {
       menorMateriasNoTrabaja = cantidadMaterias;
@@ -168,7 +168,7 @@ function mostrar() {
       `El nombre del mejor promedio que solo estudia es ${nombreMayorPromedio}`
     );
   } else {
-    console.log(`Todos los alumnos trabajan o buscan`);
+    console.log(`Todos los alumnos trabajan o buscan trabajo`);
   }
 
   /* ---------------- INFORMAR B ---------------- */
@@ -214,6 +214,6 @@ function mostrar() {
       `El que cursa menos materias y que busca trabajo es ${nombreMenorMateriasNoTrabaja} y su edad es ${edadMenorMateriasNoTrabaja}`
     );
   } else {
-    console.log('Ningun alumno no busca trabajo');
+    console.log('Ningun alumno busca trabajo');
   }
 }
